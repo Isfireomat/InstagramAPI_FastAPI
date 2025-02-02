@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test-1-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Isfireomat <dfdfgfgf666@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.115.6"}
+alembic = "^1.14.0"
+psycopg2 = "^2.9.10"
+sqlalchemy = "^2.0.36"
+asyncpg = "^0.30.0"
+pytest = "^8.3.4"
+pytest-asyncio = "^0.24.0"
+httpx = "^0.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
